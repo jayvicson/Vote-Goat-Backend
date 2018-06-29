@@ -19,10 +19,10 @@ function check_recent_activity (conv, voting_intention) {
         'Bravo!',
         'Awesome!',
         'Fantastic!',
-        'Great taste!', // Perhaps not fair to apply to only upvotes?
+        'Great taste!', /* Perhaps not fair to apply to only upvotes?
         'You are killing it!',
         `You've got it in the bag!`,
-        'You are a rockstar!', // Not so for disliking movies? :P
+        'You are a rockstar!',  Not so for disliking movies? :P*/
         'You are so amazing!',
         'Way to go!',
         'You are the best!',
@@ -31,20 +31,21 @@ function check_recent_activity (conv, voting_intention) {
 
       const downvote = [
         'Hmm, that`s a shame.',
-        'Sorry about that!',
-        'Yeah, I get what you mean.',
+        //'Sorry about that!',
+        'Yeah, I can relate with that too.',
         'Me neither!',
         `I don't like it either!`,
         'Fair Enough!',
         'Shoot..!'
+        'Sad you dont like that '
       ];
 
       const encourage_progress = [
         "Keep it up!",
-        "Keep on voting!",
+        "Rightly voted, you should do more !",
         "You got this!",
-        'Keep ranking movies!',
-        'Keep it going!'
+        'Obviously !!!',
+        'Thats a good one!'
       ];
 
       var progress_response = ``;
