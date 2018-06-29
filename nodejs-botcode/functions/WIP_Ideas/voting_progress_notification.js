@@ -30,21 +30,21 @@ function check_recent_activity (conv, voting_intention) {
       ];
 
       const downvote = [
-        'Hmm, that`s a shame.',
-        'Sorry about that!',
-        'Yeah, I get what you mean.',
-        'Me neither!',
-        `I don't like it either!`,
-        'Fair Enough!',
-        'Shoot..!'
+        'Hmm, that`s a shame.😐',
+        'Sorry about that! 😥',
+        '🤝 Yeah, I get what you mean.',
+        'Me neither! 👌',
+        `I don't like it either! 👌`,
+        'Fair Enough! 👌',
+        'Shoot..! 😲 '
       ];
 
       const encourage_progress = [
-        "Keep it up!",
+        "Keep it up! 👌",
         "Keep on voting!",
-        "You got this!",
+        "You got this! 👌",
         'Keep ranking movies!',
-        'Keep it going!'
+        'Keep it going! 💯 '
       ];
 
       var progress_response = ``;
